@@ -8,4 +8,4 @@ python manage.py migrate
 echo ====================================
 
 echo "Starting Server..."
-python manage.py runserver 127.0.0.1:8003
+python manage.py runserver 172.31.85.226:8003
