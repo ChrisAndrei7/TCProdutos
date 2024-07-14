@@ -51,3 +51,4 @@ jobs:
       run: 
           python -m pip install --upgrade pip
           pip debug -r appProdutos/project/requirements.txt
+          behave appProdutos/project/features/produtos.feature
