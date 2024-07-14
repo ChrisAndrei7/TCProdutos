@@ -36,3 +36,10 @@ Abaixo, fluxos principais com processo e endpoint desse microsserviço. Para mai
 
 # Collection
 Disponibilizamos uma collection do postman para ajudar na utilização, contendo todas as APIs deste microserviço e com os campos necessários para preenchimento. 
+
+# Testes
+Para executar os testes, localizados dentro da pasta "feature", deve ser processado o comando abaixo após aplicação estar no ar:
+
+behave appProdutos/project/features/produtos.feature
+
+OBS: BDD está dentro do arquivo "produtos.feature"
