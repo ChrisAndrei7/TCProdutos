@@ -53,7 +53,5 @@ jobs:
     - name: Teste
       run:
           # behave .\appProdutos\project\features\produtos.feature
-          cd appProdutos
-          cd project
-          cd features
+          cd appProdutos\project\features
           behave produtos.feature
