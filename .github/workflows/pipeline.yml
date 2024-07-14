@@ -54,4 +54,4 @@ jobs:
       run:
           #COMANDO OK > behave appProdutos/project/features/produtos.feature
           python -m pip install --upgrade pip
-          pip debug -r appUsuarios/project/requirements.txt
+          pip debug -r appProdutos/project/requirements.txt
