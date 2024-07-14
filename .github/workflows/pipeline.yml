@@ -19,7 +19,7 @@ jobs:
       run: |
         python -m pip install --upgrade pip
         pip install -r appProdutos/project/requirements.txt
-        pip install behave
+        pip install behave --user
 
           
 
