@@ -49,4 +49,5 @@ jobs:
         fetch-depth: 0
     - name: Teste
       run:
+          pip install behave
           behave appProdutos/project/features/produtos.feature
