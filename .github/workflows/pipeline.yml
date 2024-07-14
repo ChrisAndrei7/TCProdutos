@@ -50,9 +50,13 @@ jobs:
     - name: install behave
       run:
           pip install behave
-    - name: Acessar pasta
+    - name: subindo app
       run:
-           cd appProdutos
+        cd appProdutos
+        docker compose up -d dbProdutos
+        docker compose build
+        docker compose up
     - name: Teste
       run:
-          behave appProdutos/project/features/produtos.feature
+          #COMANDO OK >
+        behave appProdutos/project/features/produtos.feature
