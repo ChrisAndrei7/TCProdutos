@@ -52,4 +52,8 @@ jobs:
           pip install behave
     - name: Teste
       run:
-          behave .\appProdutos\project\features\produtos.feature
+          # behave .\appProdutos\project\features\produtos.feature
+          cd appProdutos
+          cd project
+          cd features
+          behave produtos.feature
