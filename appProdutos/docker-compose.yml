@@ -4,7 +4,7 @@ services:
     container_name: produtos
     build:
       context: .
-      dockerfile: ../Dockerfile
+      dockerfile: project/Dockerfile
     ports:
       - "8003:8003"
     environment:
