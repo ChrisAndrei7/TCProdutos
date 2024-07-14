@@ -43,3 +43,8 @@ OBS: BDD está dentro do arquivo "produtos.feature"
 
 #### behave appProdutos/project/features/produtos.feature
 
+# Evidência dos testes:
+
+![image](https://github.com/user-attachments/assets/58f34190-b64b-416e-9caf-dc9416151d04)
+
+
