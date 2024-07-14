@@ -50,6 +50,9 @@ jobs:
     - name: install behave
       run:
           pip install behave
+    - name: Acessar pasta
+      run:
+           cd appProdutos
     - name: Teste
       run:
            behave produtos.feature
