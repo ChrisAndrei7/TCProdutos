@@ -37,7 +37,7 @@ Abaixo, fluxos principais com processo e endpoint desse microsserviço. Para mai
 # :page_with_curl: Collection
 Disponibilizamos uma collection do postman para ajudar na utilização, contendo todas as APIs deste microserviço e com os campos necessários para preenchimento. 
 
-# :test_tube: Testes
+# :test_tube: Execução dos Testes
 Para executar os testes, localizados dentro da pasta "feature", deve ser processado o comando behave abaixo após aplicação estar no ar.
 OBS: BDD está dentro do arquivo "produtos.feature"
 
